@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>to do</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <script defer src="main.js"></script>
+</head>
+
+<body class="flex flex-col gap-12 items-center h-screen text-zinc-300 bg-zinc-950">
+  <nav class="grid py-5 place-content-center mb-8">
+    <ul class="grid grid-cols-2 items-center w-[95vmin] max-w-[750px]">
+
+      <li class="justify-self-start flex justify-center items-center gap-2 w-20 font-semibold text-zinc-400">
+        <img src="favicon.png" alt="logo" class="h-5">
+        daezen
+      </li>
+
+      <li class="
+        justify-self-end 
+        flex justify-center 
+        w-[115px] py-1 
+        border rounded-3xl border-zinc-800 
+        bg-zinc-900 hover:bg-zinc-400 transition duration-200
+        hover:text-zinc-900 hover:border-zinc-400">
+        <a href="https://github.com/daezen/to-do" target="_blank">View Github</a>
+      </li>
+
+    </ul>
+  </nav>
+  <main class="flex flex-col items-center gap-8">
+    <header class="text-zinc-300 flex flex-col justify-center items-center w-[95vmin] max-w-[750px]">
+      <h1 class="font-bold text-4xl lg:text-6xl text-center mb-5 lg:mb-10">
+        Organize yourself with this to-do app
+      </h1>
+      <p class="text-zinc-400 text-2xl text-center font-light max-w-[550px] mb-1">Simplify tasks, boost productivity.
+        Our straightforward app helps you stay organized effortlessly.</p>
+      <p class="text-zinc-700 text-center font-extralight">Don't actually use this to-do app*</p>
+      <button class="text-1xl font-semibold w-fit bg-blue-500 rounded-3xl my-8 group">
+        <a href="https://todo.daezen.co/" target="_blank" class="px-3 py-1 flex items-center gap-1">
+          Get started
+          <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 group-hover:translate-x-1 transition">
+            <path
+              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+            </path>
+          </svg>
+        </a>
+      </button>
+    </header>
+    <img data-app-image src="app.png" alt="app" class="max-w-[1100px] lg:w-[98vw] w-[110vw]">
+  </main>
+  <span class="flex-none w-screen h-px bg-gradient-to-r from-transparent via-zinc-800 to-transparent"></span>
+  <section class="flex flex-col gap-12 items-center max-w-[750px] pb-8">
+    <h2 class="text-3xl font-bold text-center">
+      *This is just a learning project
+    </h2>
+    <div class="flex items-center w-[95vmin] max-w-[800px] ">
+      <div class="place-self-start py-12">
+        <h3 class="text-3xl font-semibold mb-4">Things I learned how to do/use</h3>
+        <ul class="text-l flex flex-col gap-2">
+          <li class="flex gap-1 items-center">
+            Web Storage API
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z">
+              </path>
+            </svg>
+          </li>
+          <li class="flex gap-1 items-center">
+            Categories with sub-categories
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z">
+              </path>
+            </svg>
+          </li>
+          <li class="flex gap-1 items-center">
+            Due dates, descriptions and priority
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z">
+              </path>
+            </svg>
+          </li>
+          <li class="flex gap-1 items-center">
+            ES6 Modules
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z">
+              </path>
+            </svg>
+          </li>
+          <li class="flex gap-1 items-center">
+            Correct OOP
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+              </path>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <img src="phone.png" alt="phone" class="aspect-auto w-96">
+    </div>
+  </section>
+  <footer class="p-4">
+    Project from
+    <a href="https://www.theodinproject.com/" target="_blank" class="footer-hover transition">The Odin Project</a>
+  </footer>
+</body>
+
+</html>
