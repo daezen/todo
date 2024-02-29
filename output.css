@@ -630,8 +630,8 @@ video {
   max-width: 750px;
 }
 
-.max-w-\[800px\] {
-  max-width: 800px;
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 
 .flex-none {
@@ -658,6 +658,14 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -672,10 +680,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.place-self-start {
-  place-self: start;
 }
 
 .justify-self-start {
@@ -745,11 +749,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-5 {
